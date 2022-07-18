@@ -127,7 +127,7 @@
   <!-- End Meta Pixel Code -->
 
 
-<script>
+<!-- <script>
   !function (w, d, t) {
     w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
 )ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
@@ -136,7 +136,7 @@
     ttq.page();
     ttq.track('AddToWishlist');
   }(window, document, 'ttq');
-</script>
+</script> -->
 
 <!-- Global site tag (gtag.js) - Google Ads: 10886811479 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10886811479"></script>
@@ -412,7 +412,7 @@
         vidalyticsPlayerAPI._player.addEventHandler('onTimeChanged', function () {
         if (vidalyticsPlayerAPI.getCurrentVideoTime() == 2690) {
           if (hook6 === false) {
-            ttq.track('AddPaymentInfo');
+            // ttq.track('AddPaymentInfo');
           //fbq('track', 'AddPaymentInfo', {}, {eventID:event_id});
           //ktr('AddPaymentInfo');
           document.cookie = "fh-watched=1";
@@ -430,7 +430,7 @@
           switch(time){
             case 60:
             if (hook1 === false) {
-                  ttq.track('CompleteRegistration');
+                  // ttq.track('CompleteRegistration');
                   //fbq('track', 'AddToCart', {}, {eventID:event_id});
                   //ktr('AddToCart');
                   //gtag('event', 'conversion', {'send_to': 'AW-10886811479/6K6WCIrh87QDENeensco'});
@@ -442,7 +442,7 @@
 
             case 300:
             if (hook2 === false) {
-              ttq.track('Download');
+              // ttq.track('Download');
               //fbq('track', 'AddToWishList', {}, {eventID:event_id});
               //ktr('AddToWishList');
               //gtag('event', 'conversion', {'send_to': 'AW-10886811479/fJd-CNrm87QDENeensco'});
@@ -464,7 +464,7 @@
             case 900:
 
             if (hook4 === false) {
-              ttq.track('Subscribe');
+              // ttq.track('Subscribe');
             //fbq('track', 'CompleteRegistration', {}, {eventID:event_id});
             //ktr('CompleteRegistration');
             //gtag('event', 'conversion', {'send_to': 'AW-10886811479/tWHeCMfu87QDENeensco'});
