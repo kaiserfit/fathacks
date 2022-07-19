@@ -999,3 +999,9 @@ body {
   
   }
 }
+
+
+
+#review-container-fluid {
+  background-image: linear-gradient(#fff, #fff,#fff,#fff,#fff, #1f2a3c);
+}

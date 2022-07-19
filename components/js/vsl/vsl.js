@@ -189,11 +189,11 @@ $('.checkout-button').click(function() {
   var page = getCookie('page');
   var dba=$(this).data('sku');
   var testidx = getCookie('testid'); //change this to the id of the active test
-  var v = getCookie('vsltest');
-  if (v != '') {
-    var p = getCookie('rec');
-    vrecordCheckout(p);
-  }
+  // var v = getCookie('vsltest');
+  // if (v != '') {
+  //   var p = getCookie('rec');
+  //   vrecordCheckout(p);
+  // }
 
   // return false;
     if (testidx != '') { //there is an active test;
